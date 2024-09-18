@@ -5,13 +5,20 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  margin: 0;
+  border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Intro {
+  margin: 0;
 }
+
+/*@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 100s linear;
+  }
+}*/
 
 .App-header {
   background-color: #282c34;

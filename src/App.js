@@ -1,22 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import MyMap from './MyMap';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+        <img src="/GoldenGateBridge.jpg" className="App-logo" alt="logo" />
+        <p className="Intro">
+          シリコンバレーの"風"を日本のIT市場に・・・<br />
+          IT発祥の地、シリコンバレーの最先端技術を基にした<br />
+          高度なクラウドインテグレションをお届けします。
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://www.ynoc.co.jp/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn YNOC
         </a>
+        <MyMap />
       </header>
     </div>
   );
